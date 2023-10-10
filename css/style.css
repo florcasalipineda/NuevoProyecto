@@ -1,0 +1,116 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+section {
+    margin: 2%;
+}
+
+#logo {
+    background-image: url(../images/neuropsicologia.jpg);
+    background-size: cover;
+    padding: 10% 10% 2% 2%;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px rgb(145, 146, 144);
+    text-indent: 10%;
+    text-anchor: middle;
+    color: rgba(3, 75, 138, 0.952);
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: bold;
+}
+
+#menu {
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1%;
+    background: linear-gradient(rgb(1, 87, 138), rgb(133, 198, 252));
+    color: antiquewhite;
+}
+
+.link {
+    color: rgb(205, 224, 241);
+    font-weight: bolder;
+
+}
+
+img {
+
+    margin: 1rem;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
+.grilla2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
+.grilla3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 5%;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 2%;
+    text-align: justify;
+}
+
+#linkedin {
+    height: 20px;
+    width: 20px;
+    margin: 0%;
+}
+
+.titulo {
+    font-size: 200%;
+    font-style: italic;
+    color: rgb(9, 124, 224);
+}
+
+.subtitulo {
+    font-size: 150%;
+    font-style: italic;
+    color: rgba(5, 68, 124, 0.795);
+}
+
+.columna {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.flex {
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.redes {
+    font-size: 100%;
+    font-weight: bolder;
+    color: rgba(5, 68, 124, 0.795);
+    background-color: aliceblue;
+}
+
